@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PRO Творчество | Визитка художника и мастера живописи</title>
+  <meta name="description" content="Мастер-классы по созданию интерьерных картин, арт-вечера и творческие встречи. Напишите свою первую картину без опыта!">
+  <meta name="theme-color" content="#12100e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PRO Творчество | Мастер-классы по созданию картин">
+  <meta property="og:description" content="Творческие встречи, интерьерные картины своими руками, уютная атмосфера.">
+  <meta property="og:image" content="./assets/avatar.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Ambient Artistic Background Orbs -->
+  <div class="ambient-background" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <main class="page-container">
+    <div class="card-wrapper">
+      
+      <!-- Profile Header -->
+      <header class="profile-header">
+        <div class="avatar-container">
+          <div class="avatar-ring"></div>
+          <!-- Фото профиля: замените assets/avatar.jpg на ваше фото при необходимости -->
+          <img src="assets/avatar.jpg" alt="Фотография художника" class="avatar-img" id="profile-avatar">
+          <span class="status-badge" title="Открыта запись на мастер-классы">
+            <span class="status-dot"></span> Идет запись
+          </span>
+        </div>
+
+        <!-- Имя и позиционирование -->
+        <h1 class="profile-name">PRO Творчество</h1>
+        <p class="profile-tagline">Художник • Мастер-классы по живописи • Арт-вечера</p>
+        
+        <!-- Краткое описание -->
+        <p class="profile-bio">
+          Помогаю раскрыть вашего внутреннего творца и написать потрясающую картину, даже если вы в последний раз держали кисть в детстве.
+        </p>
+      </header>
+
+      <!-- Блок про мастер-классы -->
+      <section class="masterclass-section" aria-label="О мастер-классах">
+        <div class="section-badge">
+          <svg class="icon-palette" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2C6.49 2 2 6.49 2 12c0 5.51 4.49 10 10 10 1.25 0 2.45-.23 3.56-.65.59-.22.95-.82.84-1.44-.22-1.22.42-2.39 1.6-2.73.91-.26 1.72-.88 2.22-1.71 1.1-1.84 1.78-3.99 1.78-6.27C22 5.37 17.52 2 12 2z"/>
+            <circle cx="7.5" cy="10.5" r="1.5" fill="currentColor"/>
+            <circle cx="12" cy="7.5" r="1.5" fill="currentColor"/>
+            <circle cx="16.5" cy="10.5" r="1.5" fill="currentColor"/>
+          </svg>
+          Мастер-классы по картинам
+        </div>
+
+        <h2 class="masterclass-title">Создайте свой шедевр за одно занятие</h2>
+        
+        <p class="masterclass-text">
+          Атмосферные встречи в уютной студии. Пишем интерьерные картины акрилом, текстурной пастой и сияющей золотой поталью. Подходит для свиданий, девичников, дней рождения или душевного отдыха наедине с искусством.
+        </p>
+
+        <!-- Особенности мастер-классов -->
+        <div class="features-grid">
+          <div class="feature-item">
+            <span class="feature-icon">✨</span>
+            <div class="feature-info">
+              <span class="feature-title">С нуля</span>
+              <span class="feature-desc">Получится у каждого</span>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🎨</span>
+            <div class="feature-info">
+              <span class="feature-title">Всё включено</span>
+              <span class="feature-desc">Холсты, краски, поталь</span>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">⏱️</span>
+            <div class="feature-info">
+              <span class="feature-title">2.5 – 3 часа</span>
+              <span class="feature-desc">Готовая работа домой</span>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🥂</span>
+            <div class="feature-info">
+              <span class="feature-title">Атмосфера</span>
+              <span class="feature-desc">Музыка, напитки и уют</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Блок контактов и социальных сетей -->
+      <section class="links-section" aria-label="Ссылки на социальные сети">
+        <h2 class="section-title">Связаться и записаться</h2>
+
+        <div class="links-list">
+          
+          <!-- Telegram (Основное целевое действие) -->
+          <a href="https://t.me/your_username" target="_blank" rel="noopener noreferrer" class="link-btn link-telegram highlight-btn" id="link-telegram">
+            <span class="btn-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.37.74-.56 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .28z"/>
+              </svg>
+            </span>
+            <div class="btn-text">
+              <span class="btn-label">Telegram</span>
+              <span class="btn-subtext">Запись на мастер-класс и вопросы</span>
+            </div>
+            <span class="btn-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </span>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/79000000000" target="_blank" rel="noopener noreferrer" class="link-btn link-whatsapp" id="link-whatsapp">
+            <span class="btn-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.78 14.07c-.24.68-1.21 1.27-1.84 1.34-.48.06-1.1.09-3.21-.78-2.69-1.12-4.43-3.87-4.57-4.05-.13-.19-1.1-1.46-1.1-2.79 0-1.32.7-1.97.94-2.24.25-.26.54-.33.72-.33.18 0 .36 0 .52.01.17.01.4.06.61.57.24.58.82 2 .89 2.15.07.15.12.33.02.53-.1.19-.15.31-.3.49-.15.18-.32.4-.45.54-.15.15-.31.31-.13.62.18.3 1.02 1.68 2.19 2.72 1.5 1.34 2.76 1.75 3.16 1.95.4.19.63.17.87-.1.24-.28 1.02-1.19 1.29-1.6.27-.41.54-.34.91-.2.37.14 2.36 1.11 2.76 1.31.41.2.68.3.78.47.1.18.1.98-.14 1.66z"/>
+              </svg>
+            </span>
+            <div class="btn-text">
+              <span class="btn-label">WhatsApp</span>
+              <span class="btn-subtext">Быстрая связь в чате</span>
+            </div>
+            <span class="btn-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </span>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://instagram.com/your_account" target="_blank" rel="noopener noreferrer" class="link-btn link-instagram" id="link-instagram">
+            <span class="btn-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </span>
+            <div class="btn-text">
+              <span class="btn-label">Instagram</span>
+              <span class="btn-subtext">Фотогалерея картин и видео процесса</span>
+            </div>
+            <span class="btn-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </span>
+          </a>
+
+          <!-- ВКонтакте -->
+          <a href="https://vk.com/your_community" target="_blank" rel="noopener noreferrer" class="link-btn link-vk" id="link-vk">
+            <span class="btn-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M15.684 0H8.316C2.692 0 0 2.692 0 8.316v7.368C0 21.308 2.692 24 8.316 24h7.368C21.308 24 24 21.308 24 15.684V8.316C24 2.692 21.308 0 15.684 0zm3.602 17.154h-1.89c-.714 0-.934-.567-2.218-1.854-1.12-1.092-1.618-1.233-1.897-1.233-.393 0-.505.112-.505.65v1.737c0 .463-.147.7-.84.7-2.218 0-4.68-1.348-6.417-3.856-2.616-3.702-3.32-6.502-3.32-7.072 0-.256.098-.493.585-.493h1.892c.441 0 .605.2.775.68.85 2.476 2.274 4.646 2.864 4.646.223 0 .324-.102.324-.664v-2.58c-.068-1.16-.677-1.26-.677-1.673 0-.197.164-.393.427-.393h2.64c.36 0 .493.187.493.612v3.49c0 .373.163.504.276.504.223 0 .408-.13.82-.544 1.28-1.433 2.195-3.66 2.195-3.66.12-.256.324-.492.766-.492h1.89c.567 0 .685.286.567.68-.236 1.094-2.52 4.307-2.634 4.526-.223.36-.31.52 0 .934.224.298.966.944 1.458 1.516 1.107 1.262 1.954 2.32 2.18 3.053.153.513-.105.772-.622.772z"/>
+              </svg>
+            </span>
+            <div class="btn-text">
+              <span class="btn-label">ВКонтакте</span>
+              <span class="btn-subtext">Расписание и отзывы участников</span>
+            </div>
+            <span class="btn-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </span>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- Дополнительная панель: кнопка Поделиться и копирование ссылки -->
+      <footer class="profile-footer">
+        <button type="button" class="share-btn" id="share-button" aria-label="Поделиться страницей">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="share-icon">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+          </svg>
+          <span id="share-btn-text">Поделиться визиткой</span>
+        </button>
+
+        <p class="copyright">PRO Творчество • Живопись с душой</p>
+      </footer>
+
+    </div>
+  </main>
+
+  <!-- Всплывающее уведомление (Toast) -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    Ссылка скопирована в буфер обмена!
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
