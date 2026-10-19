@@ -23,7 +23,7 @@
 
   /* Social Colors */
   --color-telegram: #2ea5e7;
-  --color-whatsapp: #25d366;
+  --color-max: #046ef4;
   --color-instagram: #e1306c;
   --color-vk: #2787f5;
 
@@ -490,13 +490,13 @@ body {
   color: #fff;
 }
 
-.link-whatsapp .btn-icon {
-  color: var(--color-whatsapp);
-  background: rgba(37, 211, 102, 0.12);
+.link-max .btn-icon {
+  color: #00d2f7;
+  background: rgba(4, 110, 244, 0.16);
 }
-.link-whatsapp:hover .btn-icon,
-.link-whatsapp:active .btn-icon {
-  background: var(--color-whatsapp);
+.link-max:hover .btn-icon,
+.link-max:active .btn-icon {
+  background: linear-gradient(135deg, #01c5c8, #046ef4 50%, #572dff);
   color: #fff;
 }
 
