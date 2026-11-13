@@ -7,7 +7,7 @@
   <title>PRO Творчество | Визитка художника и мастера живописи</title>
   <meta name="description"
     content="Мастер-классы по созданию интерьерных картин, арт-вечера и творческие встречи. Напишите свою первую картину без опыта!">
-  <meta name="theme-color" content="#12100e">
+  <meta name="theme-color" content="#f6efe5">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
@@ -16,13 +16,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="PRO Творчество | Мастер-классы по созданию картин">
   <meta property="og:description" content="Творческие встречи, интерьерные картины своими руками, уютная атмосфера.">
-  <meta property="og:image" content="./assets/avatar.jpg">
+  <meta property="og:image" content="./assets/avatar.jpeg">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Manrope:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="./style.css">
@@ -44,15 +44,15 @@
         <div class="avatar-container">
           <div class="avatar-ring"></div>
           <!-- Фото профиля: замените assets/avatar.jpg на ваше фото при необходимости -->
-          <img src="assets/avatar.jpg" alt="Фотография художника" class="avatar-img" id="profile-avatar">
-          <span class="status-badge" title="Открыта запись на мастер-классы">
-            <span class="status-dot"></span> Идет запись
-          </span>
+          <img src="assets/avatar.jpeg" alt="Фотография художника" class="avatar-img" id="profile-avatar">
         </div>
 
         <!-- Имя и позиционирование -->
-        <h1 class="profile-name">PRO Творчество</h1>
-        <p class="profile-tagline">Художник • Мастер-классы по живописи • Арт-вечера</p>
+        <h1 class="profile-name">
+          <span class="profile-name-base">Творческая студия</span>
+          <span class="profile-name-accent">«Арт-чудо»</span>
+        </h1>
+        <p class="profile-tagline">Здесь рождаются шедевры и случаются чудеса</p>
 
         <!-- Краткое описание -->
         <p class="profile-bio">
@@ -71,15 +71,20 @@
             <circle cx="12" cy="7.5" r="1.5" fill="currentColor" />
             <circle cx="16.5" cy="10.5" r="1.5" fill="currentColor" />
           </svg>
-          Мастер-классы по картинам
+          Мастер-классы для детей и взрослых
         </div>
 
         <h2 class="masterclass-title">Создайте свой шедевр за одно занятие</h2>
 
         <p class="masterclass-text">
-          Атмосферные встречи в уютной студии. Пишем интерьерные картины акрилом, текстурной пастой и сияющей золотой
-          поталью. Подходит для свиданий, девичников, дней рождения или душевного отдыха наедине с искусством.
+          Атмосферные встречи в уютной студии:
         </p>
+        <ul class="masterclass-list">
+          <li>Корпоративы</li>
+          <li>Девичники</li>
+          <li>Дни рождения</li>
+          <li>Арт-свидания</li>
+        </ul>
 
         <!-- Особенности мастер-классов -->
         <div class="features-grid">
@@ -94,14 +99,14 @@
             <span class="feature-icon">🎨</span>
             <div class="feature-info">
               <span class="feature-title">Всё включено</span>
-              <span class="feature-desc">Холсты, краски, поталь</span>
+              <span class="feature-desc">Холсты, краски</span>
             </div>
           </div>
           <div class="feature-item">
             <span class="feature-icon">⏱️</span>
             <div class="feature-info">
-              <span class="feature-title">2.5 – 3 часа</span>
-              <span class="feature-desc">Готовая работа домой</span>
+              <span class="feature-title">1.5 – 3 часа</span>
+              <span class="feature-desc">Готовая работа</span>
             </div>
           </div>
           <div class="feature-item">
@@ -120,9 +125,28 @@
 
         <div class="links-list">
 
+          <!-- Телефон (Татьяна) -->
+          <a href="tel:+79043842084" class="link-btn link-phone" id="link-phone">
+            <span class="btn-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.24 1.02l-2.21 2.2z" />
+              </svg>
+            </span>
+            <div class="btn-text">
+              <span class="btn-label">+7 (904) 384-20-84</span>
+              <span class="btn-subtext">Татьяна</span>
+            </div>
+            <span class="btn-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
           <!-- Telegram (Основное целевое действие) -->
           <a href="https://t.me/KXqKJ317pmNzIy" target="_blank" rel="noopener noreferrer"
-            class="link-btn link-telegram highlight-btn" id="link-telegram">
+            class="link-btn link-telegram" id="link-telegram">
             <span class="btn-icon">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path
@@ -131,7 +155,6 @@
             </span>
             <div class="btn-text">
               <span class="btn-label">Telegram</span>
-              <span class="btn-subtext">Запись на мастер-класс и вопросы</span>
             </div>
             <span class="btn-arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -141,19 +164,20 @@
           </a>
 
           <!-- MAX -->
-          <a href="https://max.ru/join/N4_uENxkfnNLxWbk7XXbsXltlUo-AkOV1FBQfuNESwY" target="_blank" rel="noopener noreferrer" class="link-btn link-max" id="link-max">
+          <a href="https://max.ru/join/N4_uENxkfnNLxWbk7XXbsXltlUo-AkOV1FBQfuNESwY" target="_blank"
+            rel="noopener noreferrer" class="link-btn link-max" id="link-max">
             <span class="btn-icon">
               <svg viewBox="0 0 100 100" fill="currentColor">
-                <path d="M50.7571 0.261719C78.2929 0.261719 99.8857 22.5974 99.8857 50.1474C99.8857 77.6974 77.6071 99.4903 51.0214 99.4903C41.5857 99.4903 37.0143 98.1617 29.65 92.9474C29.1429 92.5903 28.45 92.6831 28.0214 93.1403C22.3571 99.1831 7.85 103.426 7.18571 95.176C7.18571 80.7903 0 71.4474 0 49.876C0 21.5546 23.2214 0.261719 50.7571 0.261719ZM51.5286 24.8117C38.4643 24.126 28.2643 33.1974 26.0143 47.3831C24.15 59.1332 27.45 73.4546 30.2786 74.176C31.4786 74.4832 34.3571 72.276 36.4571 70.2974C36.85 69.926 37.45 69.8617 37.9071 70.1474C41.1786 72.1474 44.8786 73.6474 48.9571 73.8617C62.3714 74.5617 74.2571 64.0617 74.9643 50.6474C75.6643 37.2331 64.9429 25.5046 51.5286 24.8046V24.8117Z"/>
+                <path
+                  d="M50.7571 0.261719C78.2929 0.261719 99.8857 22.5974 99.8857 50.1474C99.8857 77.6974 77.6071 99.4903 51.0214 99.4903C41.5857 99.4903 37.0143 98.1617 29.65 92.9474C29.1429 92.5903 28.45 92.6831 28.0214 93.1403C22.3571 99.1831 7.85 103.426 7.18571 95.176C7.18571 80.7903 0 71.4474 0 49.876C0 21.5546 23.2214 0.261719 50.7571 0.261719ZM51.5286 24.8117C38.4643 24.126 28.2643 33.1974 26.0143 47.3831C24.15 59.1332 27.45 73.4546 30.2786 74.176C31.4786 74.4832 34.3571 72.276 36.4571 70.2974C36.85 69.926 37.45 69.8617 37.9071 70.1474C41.1786 72.1474 44.8786 73.6474 48.9571 73.8617C62.3714 74.5617 74.2571 64.0617 74.9643 50.6474C75.6643 37.2331 64.9429 25.5046 51.5286 24.8046V24.8117Z" />
               </svg>
             </span>
             <div class="btn-text">
               <span class="btn-label">MAX</span>
-              <span class="btn-subtext">Быстрая связь в чате</span>
             </div>
             <span class="btn-arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
+                <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
             </span>
           </a>
@@ -169,7 +193,6 @@
             </span>
             <div class="btn-text">
               <span class="btn-label">Instagram</span>
-              <span class="btn-subtext">Фотогалерея картин и видео процесса</span>
             </div>
             <span class="btn-arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -189,7 +212,6 @@
             </span>
             <div class="btn-text">
               <span class="btn-label">ВКонтакте</span>
-              <span class="btn-subtext">Расписание и отзывы участников</span>
             </div>
             <span class="btn-arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
